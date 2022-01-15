@@ -1,0 +1,117 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(0deg, rgba(255,255,255,1)50%, rgb(228, 228, 228)80%);
+}
+.navbar{
+    background: url(../imagenes/img-nav-back.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, auto;
+    background-position-y: -570px;
+    padding: 30px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%; 
+}
+.card-reaccion{
+    border: 10px solid rgb(240, 240, 240);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.card-reaccion:hover, a:hover{
+    transform: scale(1.05);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+.header-content{
+    border-radius: 5px;
+    background: linear-gradient(15deg, rgba(255,255,255,1)15%, rgb(228, 228, 228)100%);
+    
+}
+#encuadre{
+    background-color: transparent;
+    position: auto;
+    margin-top: -20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+#encuadre img{
+    position: relative;
+    margin-top: -50px;
+}
+#encuadredos{
+    position: auto;
+    box-shadow: 0 0 5px rgb(207, 204, 204);
+    margin-top: -20px;
+    border-radius: 20px;
+}
+#encuadredos img{
+    position: relative;
+    margin-top: -30px;
+    margin-right: -50px;
+}
+.seleccion{
+    text-decoration: none;
+    color:black;
+}
+.seleccion:hover{
+    color: black;
+}
+.deshabilidato{
+    text-decoration: none;
+    color: red;
+    pointer-events: none;
+}
+.input-style{
+    background: linear-gradient(0deg, rgba(255,255,255,1)20%, rgb(228, 228, 228)100%);
+    border-radius: 8px;
+}
+.btn-guardar,.btn-buscar{
+    background-color: #FD9843;
+    color: white;
+} 
+.btn-actualizar:hover,.btn-agregar:hover{
+    background-color: #FD9843;
+}
+.btn-detalle:hover{
+    background-color: #8bb9ff;
+}
+.btn-eliminar:hover,.btn-hov:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.tabla-style{
+    background: linear-gradient(0deg, rgba(255,255,255,1)20%, rgb(228, 228, 228)100%);
+}
+.page-item{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.page-link{
+    margin-right: 3px;
+    border-style: none;
+    color:black;
+}
+.page-link:hover{
+    background-color:#FFC269;
+    transform: scale(1.3);
+    color: black;
+}
+.fallo{
+    background-color: rgb(255, 217, 217);
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.btn-eliminar-cliente{
+    background-color: #F9F9F9;
+    color: red;
+}
+.btn-eliminar-cliente:hover{
+    background-color: #F9F9F9;
+    color: red;
+    transform: scale(1.3);
+}
